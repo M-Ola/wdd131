@@ -2,15 +2,14 @@ body {
     font-family: Arial, sans-serif;
     display: grid;
     height: 100vh;
-    
     grid-template: auto 1fr auto / 300px 1fr auto;
 }
 
 
- header {
+header {
     background: rgb(84, 80, 81);
-     grid-column: 1 / 4;
-} 
+    grid-column: 1 / 4;
+}
 
 
 
@@ -41,12 +40,11 @@ footer {
 
 
 .navigation {
- 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-     background-color: #1f1e1e;
-     align-items: center;
+    background-color: #1f1e1e;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -54,13 +52,12 @@ footer {
     display: block;
     color: #eee;
     padding: 0.5rem;
-    
+
     text-align: center;
 }
 
 
 
-header h1{
-
+header h1 {
     color: white;
 }
