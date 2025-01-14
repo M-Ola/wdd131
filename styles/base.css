@@ -1,37 +1,22 @@
-:root {
-
-    
-
-}
-
-
 body {
-    font-family: "Roboto", sans-serif;
-    display: block;
-    width: auto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    height: 100vh;
 
 }
 
 
 
-nav {
 
-    width: 100%;
-    display: flex;
-    background-color: #8FF0D3;
-    justify-content: space-around;
+header,
+main,
+footer {
+
+    margin: 1rem auto;
+    padding: 1rem;
+
+    max-width: 100%;
 }
 
-
-nav a {
-    display: block;
-    color: #000005;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-}
 
 nav a:hover {
     font-weight: 400;
@@ -43,8 +28,8 @@ nav a:hover {
 
 
 header {
-    background:#F9C8F3;
-    
+    background: #F9C8F3;
+
 
 }
 
@@ -56,36 +41,43 @@ header h1 {
     padding-top: 1rem;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #8FF0D3;
+    justify-content: space-around;
 
+}
+
+
+nav a {
+
+    color: #000005;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #F5CA8E;
+    text-align: center;
+    color: #000000;
+    justify-content: center
+}
 
 
 main {
 
     display: grid;
-    height: 70vh;
+
     width: auto;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
 
 }
-
-footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
-    margin-right: 1rem;
-    background:#F5CA8E;
-    padding: 4rem;
-    text-align: center;
-    color: #000000;
-    justify-content: center;
-
-
-
-
-}
-
-
 
 .card_one {
     padding: 1rem;
@@ -98,19 +90,10 @@ footer {
     padding: 1rem;
     background: #E8E8E8;
     grid-column: 2 / 3;
-    
-    
-}
-
-
-
-
-
-.card_one p {
-    padding-top: 1rem;
 
 
 }
+
 
 .about {
     height: 50px;
@@ -124,46 +107,16 @@ footer {
 }
 
 
-
-
-
-
-.card_one div h2 {
-
-    padding-left: 20rem;
-    padding-bottom: 16rem;
-
-
-
-}
-
-.border {
-
-    border-bottom: 1px gray solid;
-    margin-left: 8rem;
-    width: 80%;
-    margin-bottom: 6rem;
-
-}
-
-
-
 .bio {
     display: flex;
     color: #000000;
-
-
-
 }
 
 .flag {
     display: flex;
-
-
-
-
-
+    padding-top: 2rem;
 }
+
 
 .flag p {
     padding-left: 1rem;
@@ -187,7 +140,6 @@ footer {
     color: #000000;
     align-items: center;
     justify-content: center;
-
     font-size: 1rem;
 
 
@@ -202,6 +154,8 @@ footer {
 .minn {
 
     padding-left: 24rem;
+    border-bottom: 1px gray solid;
+
 
 
 }
@@ -211,3 +165,13 @@ h3 {
     font-style: italic;
 
 }
+
+
+
+nav a:hover {
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+    
