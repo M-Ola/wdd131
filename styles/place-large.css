@@ -1,0 +1,82 @@
+@media screen and (min-width: 40em) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+
+main{
+
+
+   
+}
+
+
+ header,
+    main,
+    footer {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem auto;
+        
+        padding: 1rem;
+
+
+
+    }
+
+
+    .div1 {
+
+        position: absolute;
+        bottom: 20rem;
+        left: 2rem;
+        width: 200px;
+
+    }
+
+    .div2 {
+        position: absolute;
+        width: 200px;
+        bottom: 0rem;
+        left: 75rem;
+
+
+    }
+
+h2{
+background-color: cyan;
+width: 100%;
+margin-top: 1rem;
+margin-right: 1rem;
+
+
+}
+.div2 h2::after{
+    content: '❄';
+    padding-left: 4rem;
+    
+    
+
+
+
+
+}
+
+.div2 img{
+
+    display: none;
+}
+
+
+
+
+
+
+}
