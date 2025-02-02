@@ -1,0 +1,67 @@
+@media screen and (min-width: 40em) {
+
+   header {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         
+        
+      
+      }
+   
+   
+   .navigation {
+         flex-direction: row;
+       
+      }
+   
+      .navigation a {
+         display: flex;
+         justify-content: flex-end;
+         font-size: medium;
+         
+       
+         
+      
+      }
+
+
+
+
+.figure {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr; 
+   gap: 0.5rem;
+
+   
+   
+
+   
+
+
+
+}
+   
+
+
+#menu {
+   display: none;
+   
+}
+
+
+
+
+
+
+nav a {
+   flex: 1 1 100%;
+}
+
+
+}
+
+
+
+
+

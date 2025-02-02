@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100 ;
+}
+
+ main{
+   
+    width: 800px;
+   
+    } 
+
+header,
+main,
+footer {
+
+     margin: 1rem auto;
+     padding: 1rem;
+     max-width: 100%;
+}
+
+
+
+    .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    
+    
+}
+
+header{
+
+background-color: #F9C8F3;;
+
+}
+
+    .navigation a {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000005;
+    font-size: 1.5rem
+    ;
+    
+   
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+
+.open a {
+    display: block;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #F5CA8E;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-weight: 400;
+    max-width: 100%;   
+
+}
+
+.figure{
+display: flex;
+flex-direction: column;
+
+    
+
+}
+.figure img{
+    width: 100%;
+    height: auto;
+
+    padding: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #eee;
+    color: #000;
+}
+
+main h2{
+
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+   font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+    text-wrap-style:auto ;
+}
