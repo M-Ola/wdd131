@@ -79,14 +79,14 @@ label {
 }
 
 strong {
-    color: rgb(0, 182, 76);
-    font-style: italic;
+    color: #0000FF;
+    font-style: normal;
     font-size: 14px;
 }
 
 .required {
-    color: rgb(68, 0, 255);
-    font-style: italic;
+    color: #0000FF;
+    font-style: normal;
     font-size: 14px;
 }
 
