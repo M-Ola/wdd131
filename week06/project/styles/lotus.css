@@ -22,6 +22,12 @@ body {
 
 }
 
+main{
+
+flex-grow: 1;
+    
+}
+
 /* Navigation Bar */
 header {
     background-color: var(--color--primary);
@@ -82,10 +88,8 @@ nav h1 {
     transform: scale(1.05);
     border-radius: 5px;
     color: var(--background);
-
-    background-color: var(--color--tertiary);
-
-    padding: 5px 10px;
+background-color: var(--color--tertiary);
+padding: 5px 10px;
     border-radius: 5px;
 
 }
@@ -96,11 +100,11 @@ nav h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .news-card {
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 300px;
     background: var(--background);
     border-radius: 8px;
@@ -110,13 +114,6 @@ nav h1 {
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s, box-shadow 0.2s;
-
-     display: inline-block;
-
-    
-    padding: 15px;
-    margin: 10px;
-   
     word-wrap: break-word;
 
 
@@ -137,7 +134,7 @@ nav h1 {
 }
 
 .news-card-content {
-    padding: 15px;
+    padding: 10px;
 
 
 
@@ -181,6 +178,10 @@ footer {
     padding: 1rem;
     font-weight: var(--text-font-h2);
     max-width: 100%;
+
+bottom: 0;
+width: 100vw;
+
 
 }
 
